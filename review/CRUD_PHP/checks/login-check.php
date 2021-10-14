@@ -37,5 +37,3 @@ require_once '../config/config.php';
 
     }
    
- 
-    //'ibrahim','ibrahim01@gmail.com', 'Trackmania12'
