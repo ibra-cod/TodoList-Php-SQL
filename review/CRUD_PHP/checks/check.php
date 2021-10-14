@@ -2,6 +2,8 @@
 
 /* PHP VERIFICATION*/
 
+// BDD DEF
+
 $pdo = new PDO('mysql:host=localhost;dbname=crud', "root", "root", [
   // nous affiche les érreur
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
@@ -11,6 +13,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=crud', "root", "root", [
 
 
 $error = null;
+// insertion de la data des input dans la BDD
 
 if(isset($_GET['submit'])){
     // récuperation des donner input 
